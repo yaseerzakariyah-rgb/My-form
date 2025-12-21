@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Form report</title>
+        <h1> Assessment Form</h1>
+    </head>
+    <body>
+        
+        <style>
+            h1,h3{
+                color:green;
+            }
+            label{
+                color: blue;
+            }
+            input{
+                background: pink;
+                border:green;
+                border-radius: 8px;
+                margin:1px;
+                
+            }
+            {
+                background:red;
+            }
+            body{
+                background: orange;
+            }
+        </style>
+        
+        
+        
+        <form action="table.html">
+            <label for="full name"> Fullname</label>
+  <input type="text"placeholder="Full name">  
+  <br><br>
+  <label for="email">Email address</label>
+  <input type="email" placeholder="Email address">
+  <br><br>
+  <label for="Password">Password< /label>
+  <input type="password" placeholder="Password"><br><br>
+  <label for="Phone number">Phone number</label>
+ <input type="Phone number"placeholder="Enter phone no"><br><br>
+ <label for="Next of kin">Next of kin</label>
+ <input type="next of kin"placeholder="next of kin"><br><br>
+ <input type="radio"id="Father" name="gender">
+ <label for="Father"> Father</label><br>
+ <input type="radio"id="Mother" name="gender">
+ <label for="Mother">Mother</label><br>
+ <input type="radio"id="Uncle"name="gender" >
+ <label for="Uncle">Uncle</label><br><br>
+ <h3>Occupation</h3>
+
+ <!-- for drop down menu-->
+ <select name="Occupation"><br><br><br>
+      <option type="please select"></option>
+     <option value="5">Engineer</option>
+     <option value="4">Doctor</option>
+     <option value="3">Electrician</option>
+     <option value="2">Surveyor</option>
+     <option value="1">Teacher</option>
+     </select><br>
+     <h1> Select Other Country Visited in Africa</h1>
+     <!-- for checkbox -->
+     <input type="checkbox" id="Nigeria">
+     <label for="Nigeria">Nigeria</label><br>
+     <input type="checkbox" id="Australia">
+     <label for="Australia">Australia</label><br>
+     <input type="checkbox" id="Pakistan">
+     <label for="Pakistan">Pakistan</label><br>
+     <input type="checkbox" id="Morocco">
+     <label for="Morocco">Morocco</label><br>
+     <!-- for text area -->
+     <textarea name="" id=""cols="40"rows="10"placeholder="Enter your message"></textarea><br>
+     <input type="submit"value="send">
+     
+    </form>
+    </body>
+</html>
