@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beginners frontend class</title>
+  <!-- link to CSS external-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    
+    body{
+  background: white;
+  margin: 10px;
+}
+h1{
+    color: blue;
+  }
+
+button{
+height: 45px;
+width:100%;
+padding: 13px;
+border-radius:8px;
+background: blue;
+color: white;
+border: none;
+margin: 10px;
+cursor: pointer;
+font-size: 16px;
+}
+
+.line{
+ display:flex;
+ align-items:center;
+ margin:18px 0;
+}
+
+.line span{
+ flex:1;
+ height:1px;
+ background: grey;
+}
+
+.or{
+ margin:0 18px;
+ color: grey;
+ font-size:13px;
+ }
+ 
+ 
+input{
+        width:90%;
+        height: 10px;
+        padding:15px;
+        margin:10px ;
+        border-radius:8px;
+        border:1px solid none;
+      
+        font-size:14px;
+        background: white;
+    }
+
+
+.create-btn {
+  width: 70%;
+  padding: 13px;
+  background: #42b72a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  margin: 8px auto;
+}
+
+.footer{
+        margin-top:90px;
+        font-size:13px;
+        text-align: center;
+    }
+    </style>
+<h1><b><center>facebook</center></b></h1>
+<input type="text" placeholder="Mobile number or email address">
+<input type="password" placeholder="Password">
+
+<!-- First button stays blue -->
+<button type="button">Log In</button>
+
+<a href="#" class="forget"><center>
+  Forgotten pasword?
+</center></a>
+
+<div class="line">
+ <span></span>
+ <p class="or">or</p>
+ <span></span>
+</div>
+
+<!-- Second button is green -->
+<button class="create-btn">Create New Account</button>
+
+<div class="footer">
+        About &nbsp;&nbsp; Help &nbsp;&nbsp; More<br>
+        Meta © 2025
+    </div>
+
+</body>
+</html>
